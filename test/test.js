@@ -7,7 +7,7 @@ describe ('Page opening', function () {
         let title = browser.getTitle();
         assert.equal(title, 'Bug Tracker', 'Title is incorrect'); //compare that "title" variable equals to "Bug Tracker" and error-message if not
     })
-
+//test coment
 
     it('get header title', function(){
         let title = browser.getText('.custom-header span');
