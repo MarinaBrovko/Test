@@ -5,7 +5,6 @@ describe ('Page opening', function () {
     it('get title', function(){
         browser.url('/');
         let title = browser.getTitle();
-        browser.pause(5000); //  the page
         assert.equal(title, 'Bug Tracker', 'Title is incorrect'); //compare that "title" variable equals to "Bug Tracker" and error-message if not
     })
 
